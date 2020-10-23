@@ -1,13 +1,11 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import StarRatingComponent from './src/component/star-rating/starRating';
+import ReviewForm from './src/component/form/ReviewForm';
+import Rating from './src/component/rating';
 
 const App = () => {
-  return (
-    <View>
-      <StarRatingComponent />
-    </View>
-  );
+  // return <Rating />;
+  return <ReviewForm />;
 };
 
 export default App;
